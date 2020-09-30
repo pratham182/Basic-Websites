@@ -6,6 +6,21 @@ body{
     font-family: 'Merriweather', serif;
 
 }  
+#loading{
+  position: fixed;
+  width: 100%;
+background-color: white;/*
+  background: url('https://imagekit.io/static/img/newPages/homepage-wave-bg.svg')*/repeat center center;
+  height: 100vh;
+  align-items: center;
+  z-index: 9;
+  display: flex;
+  
+}
+#loading img {
+margin-left: 46%;
+margin-top: 10%;
+}
 h1{
     margin: 50x auto 0 auto;
     font-family: 'Sacramento', cursive;
