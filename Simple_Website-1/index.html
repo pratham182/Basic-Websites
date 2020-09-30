@@ -9,7 +9,10 @@
     <title>Aryan's Page</title>
 
 </head>
-<body>
+<body onload ="my()" >
+     <div id="loading" >
+    <img src="/24.gif">
+  </div>
     <div class="top_cont">
         <img class="top_cloud" src="images/cloud.png" alt="cloud-img">
         <h1>I am Aryan</h1>
@@ -58,3 +61,14 @@
     
 </body>
 </html>
+<script type="text/javascript">
+  let preloader = document.getElementById("loading");
+
+    function my(){
+      preloader.style.display ="none";
+    
+
+
+
+    };
+</script>
